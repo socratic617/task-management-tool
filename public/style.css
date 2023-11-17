@@ -1,0 +1,19 @@
+body{
+  padding-top:3rem;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+.todo {
+  background-color: #FDF2F2;
+}
+
+.progress {
+  background-color: #FDF6B2;
+}
+
+.done{
+  background-color: #DEF7EC;
+}
