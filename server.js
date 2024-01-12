@@ -1,7 +1,7 @@
 // server.js
 
-// Use .env file in config folder
-dotenv.config({ path: "./.env" })
+//Use .env file in config folder , so my secrets dont go up w password to gtihub
+require("dotenv").config({ path: "./config/.env" });
 
 // set up ======================================================================
 // get all the tools we need
