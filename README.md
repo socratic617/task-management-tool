@@ -7,7 +7,6 @@ This is a shared task management tool thats used to help you keep track of the t
 ## Tech Stack
 
 **Client:** EJS, Javascript, Flowbite, TailwindCSS, HTML/CSS
-
 **Server:** Node, Express, Passport, Mongoose, MongoDB
 
 
