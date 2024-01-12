@@ -1,5 +1,8 @@
 // server.js
 
+// Use .env file in config folder
+dotenv.config({ path: "./.env" })
+
 // set up ======================================================================
 // get all the tools we need
 var express  = require('express');
@@ -16,6 +19,7 @@ var bodyParser   = require('body-parser'); // built in to express, whatever user
 var session      = require('express-session');
 
 var configDB = require('./config/database.js');// grabbing my  database from my folder database.js
+
 
 var db
 
